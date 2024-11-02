@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 });
 
 // MongoDB Connection and Server Start
-mongoose.connect('mongodb+srv://abinaya:123@ecommerce.gunty.mongodb.net/')
+mongoose.connect('mongodb+srv://admin:JHDy6YyQTBnf8kYt@cluster1.fhkav.mongodb.net/')
   .then(() => {
     console.log("Connected to database");
     app.listen(3000, () => {
